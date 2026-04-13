@@ -1,0 +1,123 @@
+{
+  "name": "@axiestudio/tool",
+  "version": "1.2.2",
+  "description": "Zero-dependency fetch wrappers that replace MCP servers for AI agent workflows",
+  "license": "Apache-2.0",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./ar-android-docs": "./ar-android-docs.js",
+    "./ar-ios-docs": "./ar-ios-docs.js",
+    "./context7": "./context7.js",
+    "./cloudflare-docs": "./cloudflare-docs.js",
+    "./npm": "./npm.js",
+    "./astro-docs": "./astro-docs.js",
+    "./drizzle-docs": "./drizzle-docs.js",
+    "./better-auth-docs": "./better-auth-docs.js",
+    "./github": "./github.js",
+    "./livekit-docs": "./livekit-docs.js",
+    "./hono-docs": "./hono-docs.js",
+    "./react-docs": "./react-docs.js",
+    "./nextjs-docs": "./nextjs-docs.js",
+    "./zod-docs": "./zod-docs.js",
+    "./bun-docs": "./bun-docs.js",
+    "./stripe-docs": "./stripe-docs.js",
+    "./tanstack-docs": "./tanstack-docs.js",
+    "./shadcn-docs": "./shadcn-docs.js",
+    "./neon-docs": "./neon-docs.js",
+    "./deno-docs": "./deno-docs.js",
+    "./vitest-docs": "./vitest-docs.js",
+    "./svelte-docs": "./svelte-docs.js",
+    "./vue-docs": "./vue-docs.js",
+    "./angular-docs": "./angular-docs.js",
+    "./nuxt-docs": "./nuxt-docs.js",
+    "./clerk-docs": "./clerk-docs.js",
+    "./convex-docs": "./convex-docs.js",
+    "./turso-docs": "./turso-docs.js",
+    "./supabase-docs": "./supabase-docs.js",
+    "./prisma-docs": "./prisma-docs.js",
+    "./turborepo-docs": "./turborepo-docs.js",
+    "./elevenlabs-docs": "./elevenlabs-docs.js",
+    "./trpc-docs": "./trpc-docs.js",
+    "./solid-docs": "./solid-docs.js",
+    "./elysia-docs": "./elysia-docs.js",
+    "./fastify-docs": "./fastify-docs.js",
+    "./effect-docs": "./effect-docs.js",
+    "./xstate-docs": "./xstate-docs.js",
+    "./vite-docs": "./vite-docs.js",
+    "./vercel-docs": "./vercel-docs.js",
+    "./payload-docs": "./payload-docs.js",
+    "./resend-docs": "./resend-docs.js",
+    "./mantine-docs": "./mantine-docs.js",
+    "./langchain-docs": "./langchain-docs.js",
+    "./nitro-docs": "./nitro-docs.js",
+    "./panda-css-docs": "./panda-css-docs.js",
+    "./expo-docs": "./expo-docs.js",
+    "./zustand-docs": "./zustand-docs.js",
+    "./storybook-docs": "./storybook-docs.js",
+    "./tauri-docs": "./tauri-docs.js",
+    "./rspack-docs": "./rspack-docs.js",
+    "./wxt-docs": "./wxt-docs.js",
+    "./browser/*": "./browser/*.js"
+  },
+  "bin": {
+    "axie-tool": "bin/cli.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/postinstall.js || true"
+  },
+  "files": [
+    "*.js",
+    "browser/",
+    "bin/",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ai",
+    "agent",
+    "tools",
+    "mcp",
+    "fetch",
+    "docs",
+    "context7",
+    "cloudflare",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiestudio/tool.git"
+  },
+  "homepage": "https://github.com/axiestudio/tool#readme",
+  "bugs": {
+    "url": "https://github.com/axiestudio/tool/issues"
+  },
+  "engines": {
+    "node": ">=18",
+    "bun": ">=1.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "ink": "^5.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "puppeteer-core": ">=22"
+  },
+  "peerDependenciesMeta": {
+    "ink": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    },
+    "puppeteer-core": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23"
+  }
+}

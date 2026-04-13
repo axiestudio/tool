@@ -1,0 +1,34 @@
+{
+  "name": "@axiestudio/create-tool",
+  "version": "1.3.2",
+  "description": "Interactive setup wizard for @axiestudio/tool — zero-dependency AI agent fetch wrappers",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "create-tool": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "create",
+    "ai",
+    "agent",
+    "tools",
+    "mcp",
+    "axiestudio"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiestudio/tool.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@axiestudio/tool": "^1.2.2"
+  }
+}
